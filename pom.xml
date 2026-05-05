@@ -11,7 +11,6 @@
 	<groupId>br.fatec</groupId>
 	<artifactId>aulaapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
 	<description/>
 	<url/>
 	<licenses>
@@ -51,4 +50,5 @@
 		</plugins>
 	</build>
 
+	<name>AulaApi</name>
 </project>
