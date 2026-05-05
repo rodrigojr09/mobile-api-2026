@@ -48,7 +48,8 @@ public class ClienteController {
 		}
 		
 		// Salva na lista
-		cliente.setCodigo(clientes.size() + 1);
+		int codigo = (int) (Math.random() * 1000);
+		cliente.setCodigo(codigo);
 		clientes.add(cliente);
 		
 		return ResponseEntity.status(HttpStatus.CREATED).body(cliente);
